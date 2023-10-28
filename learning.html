@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Learning Journey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #afa4f9;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.active, .collapsible:hover {
+  background-color: #656565;
+}
+
+.content {
+  padding: 0 18px;
+  font-size: large;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+
+<body style="background-color: blanchedalmond;">
+</body>
+
+<h1 style="color:rgb(151, 120, 196)">Jimin's Learning Journey</h1>
+<hr>
+<br>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+<button type="button" class="collapsible">Directions I wanted to go in before I discovered application architecture</button>
+<div class="content">
+  <p>
+    Before discovering my interest in application architecture, I wanted to become a clinical psychologist. However, this desire faded after I realized the high level of empathetic proficiency needed (I discovered this through the “occupational research” activity).
+    </p>
+</div>
+
+
+<button type="button" class="collapsible">How I realized my ideal career pathway</button>
+<div class="content">
+  <p>The “Exploring my Top Jobs” assignment made me realize that application architecture was a field that I was passionate about. Its requirements suit my character, such as firm management, critical thinking, and analytical skills. Meanwhile, it is an interdisciplinary field where I could apply visual art skills (for design), coding skills (for software engineering), and psychology skills (for optimizing user experience). The cherry on top was that working remotely is a definite option for this career, while freelancing is also plausible. </p>
+</div>
+<button type="button" class="collapsible">Future post-secondary choices</button>
+<div class="content">
+  <p>I wish to get a bachelor’s degree in cognitive science. It is an immensely interdisciplinary study field which combines psychology, computer science, linguistics, and philosophy. My preferred post-secondary option is UBC, and I would apply for the bachelor of arts degree (but a bachelor of science is great, too). </p>
+</div>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html> 

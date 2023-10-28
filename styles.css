@@ -1,0 +1,10 @@
+
+/* styles.css */
+
+/* Target all buttons */
+button {
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    margin-right: 50px; /* Add right margin to create space between buttons */
+}
+
