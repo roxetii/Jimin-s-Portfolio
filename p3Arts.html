@@ -1,445 +1,189 @@
 <!DOCTYPE html>
 <html>
-  
-    
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  .row {
-    display: flex;
-    flex-wrap: wrap; /* Allow elements to wrap to the next row on small screens */
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-  }
-
-  .column {
-    flex: 1; /* Allow columns to take equal space in the row */
-    text-align: center; /* Center the text within the column */
-  }
-
-  .column img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container width */
-  }
-</style>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.collapsible {
-  background-color: #afa4f9;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-  font-size: large;
-}
-</style>
-
-
 <head>
-    <body style="background-color: blanchedalmond;">
-
-    <title>Artworks</title>
-<h1 style="color:rgb(151, 120, 196)"> Artworks</h1>
-
-<hr>
-
-    <style>
-    * {
-      box-sizing: border-box;
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .row {
+      display: flex;
+      flex-wrap: wrap; /* Allow elements to wrap to the next row on small screens */
+      justify-content: center; /* Center the content horizontally */
+      align-items: center; /* Center the content vertically */
     }
-    
+
     .column {
-      float: left;
-      width: 33.33%;
-      padding: 5px;
+      flex: 1; /* Allow columns to take equal space in the row */
+      text-align: center; /* Center the text within the column */
     }
-    
-    /* Clearfix (clear floats) */
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-    </style>
-    
-    <h2 style="color:rgb(151, 120, 196)">Luncheon of Reminisence and Eternity in Repressed Catharsis</h2>
-   
-    <div class="row">
-      <div class="column">
-        <img src="images/Luncheon.jpg" style="width:100%">
-      </div>
-      <div class="column">
-        <img src="images/Eternity.jpg" style="width:100%">
-      </div>
-      <div class="column">
-        <font size="+2">Both of these artworks were for the Youth Exhibition by the Langley Arts Council.</font> 
-      </div>
-    </div>
- 
 
-    
-    <h2>Luncheon of Reminiscence and Eternity in Repressed Catharsis Explanation</h2>
-    
-    <button type="button" class="collapsible">Click me!</button>
-    <div class="content">
-        
-      <p>
-        <img src="acceptance/Youth Exhibition.jpeg" style="width: 50%; display: block; margin: 0 auto;">
-        I gained valuable experience displaying my artworks at the Aldergrove Kinsmen Centre as I became more familiar with the organization of exhibitions. Furthermore, it was an immense joy to have my art displayed for people to see. It was truly remarkable how both of these works got accepted by a juried exhibition. Instead of stopping with my previous success with “Totoro’s Morning Stroll,” I continued to embark on my artistic journey. I learned the valuable lesson of determination, and I will transfer that quality as a future application architect. 
+    .column img {
+      max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    }
+
+    .collapsible {
+      background-color: #afa4f9;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .active, .collapsible:hover {
+      background-color: #555;
+    }
+
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+      font-size: large;
+    }
+  </style>
+</head>
+<body style="background-color: blanchedalmond;">
+  <h1 style="color:rgb(151, 120, 196)">Artworks</h1>
+  <hr>
+  <div class="row">
+    <div class="column">
+      <img src="images/Luncheon.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/Eternity.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <font size="+2">Both of these artworks were for the Youth Exhibition by the Langley Arts Council.</font>
+    </div>
+  </div>
+
+  <h2 style="color:rgb(151, 120, 196)">Luncheon of Reminiscence and Eternity in Repressed Catharsis</h2>
+  <button type="button" class="collapsible">Click me!</button>
+  <div class="content">
+    <p>
+      <img src="acceptance/Youth Exhibition.jpeg" style="width: 50%; display: block; margin: 0 auto;">
+      I gained valuable experience displaying my artworks at the Aldergrove Kinsmen Centre as I became more familiar with the organization of exhibitions. Furthermore, it was an immense joy to have my art displayed for people to see. It was truly remarkable how both of these works got accepted by a juried exhibition. Instead of stopping with my previous success with "Totoro's Morning Stroll," I continued to embark on my artistic journey. I learned the valuable lesson of determination, and I will transfer that quality as a future application architect.
     </p>
+  </div>
+
+  <h2 style="color:rgb(151, 120, 196)">Carousel of Dreams</h2>
+  <div class="row">
+    <div class="column">
+      <img src="images/Carousel.jpg" alt="Snow" style="width:150%">
     </div>
-    
-
-
-<h2 style="color:rgb(151, 120, 196)">Carousel of Dreams</h2>
-   
-<div class="row">
-  <div class="column">
-    <img src="images/Carousel.jpg" alt="Snow" style="width:150%">
-  </div>
-  <div class="column">
-    <font size="+2">This artwork was for the "Artworks Inspired by Words" exhibition by the Langley Arts Council</font> 
-  </div>
-</div>
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .collapsible {
-      background-color: #777;
-      color: white;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
-    
-    .content {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #f1f1f1;
-    }
-    </style>
-    
-    <h2>Carousel of Dreams Explanation</h2>
-    
-    <button type="button" class="collapsible">Click me!</button>
-    <div class="content">
-
-        <video width="320" height="240" controls>
-            <source src="Videos/Video1.mov"video/mp4">
-            <source src="Videos/Video1.mov" type="video/ogg">
-            Your browser does not support the video tag.
-          </video>
-          
-      <p>Recognition by Sara Lee -beside- animated version -beside-  acceptance form
-        I painted this piece for over a month. It was an artwork that paid homage to (and was a fan artwork of) South Korean visual artist Sara Lee (insert Sara Lee’s website in Sara Lee). When I emailed the piece to her, she thanked me with a reply and posted the animated version on her Instagram story. It was also a special piece because I had it accepted in “Artworks Inspired by Words,” a juried exhibition by the Langley Arts Council. By pursuing this opportunity, I gained the valuable experience of showing appreciation to visual artists while taking creative risks. 
-   <br>
-   <br>
-    Like application architecture, the animated version of this artwork required the ability to utilize computer programs. While creating this, I learned how to apply sound effects and graphic choices to make my painting “come alive.”
-   </p>
+    <div class="column">
+      <font size="+2">This artwork was for the "Artworks Inspired by Words" exhibition by the Langley Arts Council</font>
     </div>
-    
-    
-<h2 style="color:rgb(151, 120, 196)">Totoro's Morning Stroll</h2>
-   
-<div class="row">
-  <div class="column">
-    <img src="images/Totoro.jpg" style="width:150%">
   </div>
-  <div class="column">
-    <font size="+2">This artwork was for the "Bring on Spring" exhibition by the Langley Arts Council</font> 
-  </div>
-</div>
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .collapsible {
-      background-color: #777;
-      color: white;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
-    
-    .content {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #f1f1f1;
-    }
-    </style>
-    
-    <h2>Totoro's Morning Stroll Explanation</h2>
-    
-    <button type="button" class="collapsible">Click me!</button>
-    <div class="content">
-      <p> <img src="acceptance/Bring on Spring.jpeg" style="width: 50%; display: block; margin: 0 auto;">
-        This was the first artwork I entered in a juried exhibition (the Bring on Spring Exhibition by the Langley Arts Council). It taught me the importance of bold risk-taking and the art of overcoming the “comfort zone.” These skills are intrinsic in application architecture, where constant learning and inventing are required. </p>
-    </div>
-    
-    
-<h2 style="color:rgb(151, 120, 196)">Um and Yang of the Universe</h2>
-   
-<div class="row">
-  <div class="column">
-    <img src="images/Um and Yang.jpg" alt="Artwork: Um and Yang of the Universe" style="width:200%">
-  </div>
-  <div class="column">
-    <font size="+2">This artwork placed semi-finalist in a worldwide art contest</font> 
-  </div>
-</div>
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .collapsible {
-      background-color: #777;
-      color: white;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
-    
-    .content {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #f1f1f1;
-    }
-    </style>
-    
-    <h2>Um and Yang of the Universe Explanation</h2>
-    
-    <button type="button" class="collapsible">Click me!</button>
-    <div class="content">
-
-      <p> 
-        This painting was in the semi-finalist place of a worldwide art contest hosted by the Khaled bin Sultan Living Oceans Foundation. It made me feel accomplished, and I was so happy to have achieved that milestone in visual arts. This opportunity provided valuable lessons in discipline and following through to the end, which I could apply to application development. 
-        <img src="images/con_Certificate.jpeg" style="width: 50%; display: block; margin: 0 auto;">
+  <h2>Carousel of Dreams Explanation</h2>
+  <button type="button" class="collapsible">Click me!</button>
+  <div class="content">
+    <video width="320" height="240" controls>
+      <source src="Videos/Video1.mov" type="video/mp4">
+      <source src="Videos/Video1.mov" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+    <p>Recognition by Sara Lee -beside- animated version -beside- acceptance form
+      I painted this piece for over a month. It was an artwork that paid homage to (and was a fan artwork of) South Korean visual artist Sara Lee (insert Sara Lee's website in Sara Lee). When I emailed the piece to her, she thanked me with a reply and posted the animated version on her Instagram story. It was also a special piece because I had it accepted in "Artworks Inspired by Words," a juried exhibition by the Langley Arts Council. By pursuing this opportunity, I gained the valuable experience of showing appreciation to visual artists while taking creative risks.
+      <br>
+      <br>
+      Like application architecture, the animated version of this artwork required the ability to utilize computer programs. While creating this, I learned how to apply sound effects and graphic choices to make my painting "come alive."
     </p>
+  </div>
+
+  <h2 style="color:rgb(151, 120, 196)">Totoro's Morning Stroll</h2>
+  <div class="row">
+    <div class="column">
+      <img src="images/Totoro.jpg" style="width:150%">
     </div>
-    
-    
-<h2 style="color:rgb(151, 120, 196)">Morning Daisies-Commissioned Work</h2>
-   
-<div class="row">
-  <div class="column">
-    <img src="images/Comission.png" style="width:150%">
-  </div>
-  <div class="column">
-    <font size="+2">This artwork was made for a commissioner.</font> 
-  </div>
-</div>
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .collapsible {
-      background-color: #777;
-      color: white;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
-    
-    .content {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #f1f1f1;
-    }
-    </style>
-    
-    <h2>Morning Daisies Explanation</h2>
-    
-    <button type="button" class="collapsible">Click me!</button>
-    <div class="content">
-      <p>
-        Morning Daisies was the second work I was commissioned to make. I received payment in the form of game currency, and it involved drawing the character of the client. This artwork was digitally made with my index finger on an iPad. This work demonstrates my ability to use digital applications to make graphic designs and my competence. Moreover, it provided valuable experience in providing paid services because I wish to work as a freelance application architect.</p>
+    <div class="column">
+      <font size="+2">This artwork was for the "Bring on Spring" exhibition by the Langley Arts Council</font>
     </div>
-    
-    
-<h2 style="color:rgb(151, 120, 196)">Reveries in Wondland</h2>
-   
-<div class="row">
-  <div class="column">
-    <img src="images/Reveries.png" style="width:180">
   </div>
-  <div class="column">
-    <font size="+2">This artwork scored second place in an art contest.</font> 
+  <h2>Totoro's Morning Stroll Explanation</h2>
+  <button type="button" class="collapsible">Click me!</button>
+  <div class="content">
+    <p>
+      <img src="acceptance/Bring on Spring.jpeg" style="width: 50%; display: block; margin: 0 auto;">
+      This was the first artwork I entered in a juried exhibition (the Bring on Spring Exhibition by the Langley Arts Council). It taught me the importance of bold risk-taking and the art of overcoming the "comfort zone." These skills are intrinsic in application architecture, where constant learning and inventing are required.
+    </p>
   </div>
-</div>
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    
 
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .collapsible {
-      background-color: #777;
-      color: white;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
-    
-    .content {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #f1f1f1;
-    }
-    </style>
-    
-    <h2>Reveries in Wonderland Explanation</h2>
-    
-    <button type="button" class="collapsible">Click me!</button>
-    <div class="content">
-      <p>Reveries in Wonderland is an artwork that won second place in an art contest, where the competitors were supposed to draw two Roblox avatar characters. This was the first time I entered an art contest, and it raised my confidence. Like the artwork above, this was made digitally with my index finger on an iPad. </p>
+  <h2 style="color:rgb(151, 120, 196)">Um and Yang of the Universe</h2>
+  <div class="row">
+    <div class="column">
+      <img src="images/Um and Yang.jpg" alt="Artwork: Um and Yang of the Universe" style="width:200%">
     </div>
-
-
-
-
-
-
-
-
-
-
-    
-    <h2 style="color:rgb(151, 120, 196)">Nurture</h2>
-   
-<div class="row">
-  <div class="column">
-    <img src="images/Nurture.png" alt="Artwork: Reveries in Wonderland" style="width:180">
-  </div>
-  <div class="column">
-    <font size="+2">This artwork was made in a scholarship-funded program hosted by Arts Umbrella, and it entered "Assimilation," a student-led exhibition.</font> 
-  </div>
-</div>
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .collapsible {
-      background-color: #777;
-      color: white;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
-    
-    .content {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #f1f1f1;
-    }
-    </style>
-    
-    <h2>Nurture Explanation</h2>
-    
-    <button type="button" class="collapsible">Click me!</button>
-    <div class="content">
-
-      <p> <img src="acceptance/Assimilation.jpeg" style="width: 50%; display: block; margin: 0 auto;">
-        “Nurture” is an art piece that I created in the scholarship-funded program at Arts Umbrella. It was placed at the center of the exhibition. Through this experience, I learned the value of time-management and speed. All of which is important to application architecture (especially because software engineering jobs have deadlines to follow). 
-      </p>
+    <div class="column">
+      <font size="+2">This artwork placed semi-finalist in a worldwide art contest</font>
     </div>
-    <script>
+  </div>
+  <h2>Um and Yang of the Universe Explanation</h2>
+  <button type="button" class="collapsible">Click me!</button>
+  <div class="content">
+    <p>
+      This painting was in the semi-finalist place of a worldwide art contest hosted by the Khaled bin Sultan Living Oceans Foundation. It made me feel accomplished, and I was so happy to have achieved that milestone in visual arts. This opportunity provided valuable lessons in discipline and following through to the end, which I could apply to application development.
+      <img src="images/con_Certificate.jpeg" style="width: 50%; display: block; margin: 0 auto;">
+    </p>
+  </div>
+
+  <h2 style="color:rgb(151, 120, 196)">Morning Daisies-Commissioned Work</h2>
+  <div class "row">
+    <div class="column">
+      <img src="images/Comission.png" style="width:150%">
+    </div>
+    <div class="column">
+      <font size="+2">This artwork was made for a commissioner.</font>
+    </div>
+  </div>
+  <h2>Morning Daisies Explanation</h2>
+  <button type="button" class="collapsible">Click me!</button>
+  <div class="content">
+    <p>
+      Morning Daisies was the second work I was commissioned to make. I received payment in the form of game currency, and it involved drawing the character of the client. This artwork was digitally made with my index finger on an iPad. This work demonstrates my ability to use digital applications to make graphic designs and my competence. Moreover, it provided valuable experience in providing paid services because I wish to work as a freelance application architect.
+    </p>
+  </div>
+
+  <h2 style="color:rgb(151, 120, 196)">Reveries in Wonderland</h2>
+  <div class="row">
+    <div class="column">
+      <img src="images/Reveries.png" style="width:180">
+    </div>
+    <div class="column">
+      <font size="+2">This artwork scored second place in an art contest.</font>
+    </div>
+  </div>
+  <h2>Reveries in Wonderland Explanation</h2>
+  <button type="button" class="collapsible">Click me!</button>
+  <div class="content">
+    <p>Reveries in Wonderland is an artwork that won second place in an art contest, where the competitors were supposed to draw two Roblox avatar characters. This was the first time I entered an art contest, and it raised my confidence. Like the artwork above, this was made digitally with my index finger on an iPad.
+    </p>
+  </div>
+
+  <h2 style="color:rgb(151, 120, 196)">Nurture</h2>
+  <div class="row">
+    <div class="column">
+      <img src="images/Nurture.png" alt="Artwork: Reveries in Wonderland" style="width:180">
+    </div>
+    <div class="column">
+      <font size="+2">This artwork was made in a scholarship-funded program hosted by Arts Umbrella, and it entered "Assimilation," a student-led exhibition.</font>
+    </div>
+  </div>
+  <h2>Nurture Explanation</h2>
+  <button type="button" class="collapsible">Click me!</button>
+  <div class="content">
+    <p>
+      <img src="acceptance/Assimilation.jpeg" style="width: 50%; display: block; margin: 0 auto;">
+      "Nurture" is an art piece that I created in the scholarship-funded program at Arts Umbrella. It was placed at the center of the exhibition. Through this experience, I learned the value of time-management and speed, all of which is important to application architecture (especially because software engineering jobs have deadlines to follow).
+    </p>
+  </div>
+  <script>
     var coll = document.getElementsByClassName("collapsible");
     var i;
-    
+
     for (i = 0; i < coll.length; i++) {
       coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
@@ -451,9 +195,6 @@
         }
       });
     }
-    </script>
-
-    
-    
+  </script>
 </body>
 </html>
